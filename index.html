@@ -229,7 +229,7 @@ $(".slidingDiv").slideToggle();
 	var selectorE = 'a[data-imagelightbox="e"]';
 	var instanceE = $( selectorE ).imageLightbox(
 	{
-		onStart:		function(){ arrowsOn( instanceG, selectorE ); },
+		onStart:		function(){ arrowsOn( instanceE, selectorE ); },
 		onEnd:			function(){ arrowsOff(); activityIndicatorOff(); },
 		onLoadStart:	function(){ activityIndicatorOn(); },
 		onLoadEnd:		function(){ $( '.imagelightbox-arrow' ).css( 'display', 'block' ); activityIndicatorOff(); }
